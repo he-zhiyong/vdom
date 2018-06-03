@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel example/index.html --no-cache --open",
-    "build": "parcel build src/index.js -o vdom --no-cache"
+    "build": "parcel build src/index.js -o vdom --no-cache",
+    "example": "parcel build example/index.html -d dist/example --public-url ./ --no-cache"
   },
   "keywords": ["Virtual Dom"],
   "author": "hezhiyong",
