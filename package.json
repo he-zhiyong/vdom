@@ -1,0 +1,17 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "description": "Virtual Dom",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel example/index.html --no-cache --open",
+    "build": "parcel build src/index.js -o vdom --no-cache"
+  },
+  "keywords": ["Virtual Dom"],
+  "author": "hezhiyong",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
